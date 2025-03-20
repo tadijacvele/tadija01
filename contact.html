@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Tadija Cvetkovic">
+    <meta name="description" content="This is a website page to contact us!">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="icon" href="favicon.ico" type="image/x.icon">
+  </head>
+  <body>
+    <header>
+      <h1>Contact Us</h1>
+      <nav aria-label="primary-navigation">
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/#about">About LTS</a></li>
+          <li><a href="/#menu">Our Menu</a></li>
+          <li><a href="hours.html">Store Hours</a></li>
+        </ul>
+        <figure>
+          <img src="img/tacos_close_up_400x260.png" alt="Tacos" title="Tacos" width="400" height="260">
+          <figcaption>Litthe Taco Shop Tacos</figcaption>
+        </figure>
+      </nav>
+    </header>
+
+    <main>
+      <article>
+          <h2>Our Contact Form</h2>
+          <form action="https://httpbin.org/get" method="get">
+            <fieldset>
+              <legend>Send Us A Message</legend>
+              <p>
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name" autofocus required placeholder="Your name">
+              </p>
+              <p>
+                <label for="email">Email:</label>
+                <input type="text" name="email" id="email" required placeholder="Your email">
+              </p>
+              <p>
+                <label for="message">Your Message:</label><br>
+                <textarea name="message" id="message" cols="30" rows="10" placeholder="Type your message here"></textarea>
+              </p>
+            </fieldset>
+            <button type="submit">Send</button>
+            <button type="reset">Reset</button>
+          </form>
+      </article>
+
+      <article>
+        <h2>Our Location</h2>
+        <address>
+          555 Taco Temptation Lame, Suite T
+          Kansas City, MO 55555-5555
+
+          <p>Phone: <a href="tel:+381695009659">555-555-5555</a></p>
+        </address>
+      </article>
+    </main>
+
+    <footer>
+      <p>
+        <a href="#">Back to Top</a>
+      </p>
+
+      <hr>
+
+      <p>
+        Copyright &copy; The Little Taco Shop
+      </p>
+    </footer>
+  </body>
+</html>
